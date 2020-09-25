@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619810addacde1f459042e43afe5edcf, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  levelObject: {fileID: 5310020062507203894, guid: e3e65b3aaca1d1c42b8a1af4e3b3152d,
+    type: 3}
+  roadOneObjectPositions:
+  - {x: 1.7, y: 0, z: 0}
+  - {x: 1.5, y: 0, z: 0.2}
+  - {x: 1.3, y: 0, z: 0.4}
+  - {x: 1.1, y: 0, z: 0.6}
+  - {x: 0.9, y: 0, z: 0.8}
+  roadTwoObjectPositions:
+  - {x: -1.7, y: 0, z: 4}
+  - {x: -1.5, y: 0, z: 4.2}
+  - {x: -1.3, y: 0, z: 4.4}
+  - {x: -1.1, y: 0, z: 4.6}
+  - {x: -0.9, y: 0, z: 4.8}
+  roadThreeObjectPositions:
+  - {x: 0, y: 0, z: 8}
+  - {x: 0, y: 0, z: 8.2}
+  - {x: 0, y: 0, z: 8.4}
+  - {x: 0, y: 0, z: 8.6}
+  - {x: 0, y: 0, z: 8.8}
+  neededObjectToPassLevelRoadOne: 3
+  neededObjectToPassLevelRoadTwo: 3
+  neededObjectToPassLevelRoadThree: 3
